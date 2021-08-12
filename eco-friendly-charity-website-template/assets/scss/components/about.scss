@@ -1,0 +1,28 @@
+.about-us{
+  background-color: #FFF;
+  @include big-padding();
+  .natur-row{
+    margin-top: 20px;
+  }
+  .text-part{
+    h2{
+      font-weight: 600;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    p{
+      text-indent: 20px;
+      margin-bottom: 15px;
+      line-height: 27px;
+      text-align: justify;
+    }
+
+  }
+  .image-part{
+    img{
+      background-color: #FFF;
+      padding: 10px;
+      box-shadow: 0 0 10px 5px #ebebeb;
+    }
+  }
+}

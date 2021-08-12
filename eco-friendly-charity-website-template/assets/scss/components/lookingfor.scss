@@ -1,0 +1,28 @@
+.lloking-for{
+  background-image: url("../images/lov_bg.jpg");
+  background-attachment: fixed;
+  .inn-lay{
+    background-color: rgba(0,0,0,0.7);
+    @include big-padding();
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .natur-col{
+       h2{
+          color: #FFF;
+         font-weight: 600;
+         font-size: 2.8rem;
+       }
+      h4{
+        font-size: .9rem;
+        margin-bottom: 80px;
+        font-weight: 600;
+        color: #FFF;
+      }
+      .btn{
+        border-radius: 0px;
+        padding: 15px;
+        font-weight: 700;
+      }
+    }
+  }
+}
